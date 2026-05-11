@@ -1,5 +1,5 @@
 """
-Phase 1 — Vector DB Wrapper: Qdrant Provider (Fixed for 3072 dim)
+Phase 1 — Vector DB Wrapper: Qdrant Provider
 """
 
 import uuid
@@ -15,7 +15,7 @@ class QdrantProvider:
         self,
         db_path: str = "assets/db/qdrant_data",
         collection_name: str = "job_documents",
-        vector_size: int = 3072,
+        vector_size: int = 768,          # changed from 3072 to 768 (nomic-embed-text)
         distance: Distance = Distance.COSINE,
     ):
         self.collection_name = collection_name
