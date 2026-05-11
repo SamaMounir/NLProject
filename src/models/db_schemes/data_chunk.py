@@ -8,7 +8,7 @@ from pydantic import BaseModel, Field
 from typing import Optional
 
 
-class ChunkSchema(BaseModel):
+class DataChunk(BaseModel):
     """Schema for a single text chunk stored in the vector DB."""
     chunk_id: str = Field(..., description="Unique identifier for this chunk")
     source_file: str = Field(..., description="Name of the source PDF file")
@@ -19,7 +19,7 @@ class ChunkSchema(BaseModel):
     chunk_size_chars: Optional[int] = Field(None, description="Length of text in characters")
 
 
-class SearchResultSchema(BaseModel):
+class RetrievalDocument(BaseModel):
     """Schema for a single vector search result."""
     score: float = Field(..., description="Cosine similarity score (0-1, higher = more relevant)")
     text: str = Field(..., description="The retrieved chunk text")

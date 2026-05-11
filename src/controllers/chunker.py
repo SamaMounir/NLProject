@@ -19,7 +19,7 @@ except ImportError:
 # ── Configuration — read from .env, fall back to sensible defaults ─────────────
 # FILE_CHUNK_SIZE in .env is in characters (~600 chars ≈ 150 tokens for English)
 CHARS_PER_CHUNK = int(os.getenv("FILE_CHUNK_SIZE", "600"))
-CHARS_OVERLAP   = CHARS_PER_CHUNK // 10    # 10% overlap
+CHARS_OVERLAP   = CHARS_PER_CHUNK // 6    # ~17% overlap
 
 
 @dataclass
