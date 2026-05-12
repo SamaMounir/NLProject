@@ -1,0 +1,172 @@
+[
+  {
+    "query": "What does a Senior Python Developer do?",
+    "expected_document": "job_0000_Senior Python Developer.pdf",
+    "ground_truth": "Responsible for backend development, APIs, and system design using Python.",
+    "category": "normal"
+  },
+  {
+    "query": "Explain the role of a Backend Engineer",
+    "expected_document": "job_0001_Backend Engineer.pdf",
+    "ground_truth": "Designs and maintains server-side logic and APIs.",
+    "category": "normal"
+  },
+  {
+    "query": "What skills are required for a React Frontend Developer?",
+    "expected_document": "job_0002_Frontend Developer - React.pdf",
+    "ground_truth": "React, JavaScript, HTML, CSS, state management.",
+    "category": "normal"
+  },
+  {
+    "query": "What does a Full Stack Developer handle?",
+    "expected_document": "job_0003_Full Stack Developer.pdf",
+    "ground_truth": "Works on both frontend and backend systems.",
+    "category": "normal"
+  },
+  {
+    "query": "Tell me about Flutter Mobile Developer responsibilities",
+    "expected_document": "job_0004_Mobile Developer - Flutter.pdf",
+    "ground_truth": "Builds cross-platform mobile apps using Flutter.",
+    "category": "normal"
+  },
+
+  {
+    "query": "What does an AWS Cloud Engineer do?",
+    "expected_document": "job_0009_Cloud Engineer - AWS.pdf",
+    "ground_truth": "Manages cloud infrastructure on AWS.",
+    "category": "normal"
+  },
+  {
+    "query": "Explain Data Scientist job role",
+    "expected_document": "job_0010_Data Scientist.pdf",
+    "ground_truth": "Analyzes data and builds predictive models.",
+    "category": "normal"
+  },
+  {
+    "query": "What is the role of a Machine Learning Engineer?",
+    "expected_document": "job_0011_Machine Learning Engineer.pdf",
+    "ground_truth": "Builds and deploys ML models.",
+    "category": "normal"
+  },
+  {
+    "query": "What does a Data Engineer do?",
+    "expected_document": "job_0016_Data Engineer.pdf",
+    "ground_truth": "Builds data pipelines and manages data infrastructure.",
+    "category": "normal"
+  },
+  {
+    "query": "Explain NLP Engineer responsibilities",
+    "expected_document": "job_0015_NLP Engineer.pdf",
+    "ground_truth": "Works on natural language processing models.",
+    "category": "normal"
+  },
+
+  {
+    "query": "What does a Civil Engineer do in construction?",
+    "expected_document": "job_0020_Civil Engineer.pdf",
+    "ground_truth": "Designs and supervises construction projects.",
+    "category": "normal"
+  },
+  {
+    "query": "Role of Structural Engineer",
+    "expected_document": "job_0021_Structural Engineer.pdf",
+    "ground_truth": "Ensures buildings are structurally safe.",
+    "category": "normal"
+  },
+
+  {
+    "query": "What is SEO Specialist job description?",
+    "expected_document": "job_0032_SEO Specialist.pdf",
+    "ground_truth": "Optimizes websites for search engines.",
+    "category": "normal"
+  },
+  {
+    "query": "What does a Digital Marketing Specialist do?",
+    "expected_document": "job_0030_Digital Marketing Specialist.pdf",
+    "ground_truth": "Runs online marketing campaigns.",
+    "category": "normal"
+  },
+
+  {
+    "query": "What is the role of a Financial Analyst?",
+    "expected_document": "job_0041_Financial Analyst.pdf",
+    "ground_truth": "Analyzes financial data for decision making.",
+    "category": "normal"
+  },
+  {
+    "query": "Explain Senior Accountant responsibilities",
+    "expected_document": "job_0040_Senior Accountant.pdf",
+    "ground_truth": "Handles accounting records and reports.",
+    "category": "normal"
+  },
+
+  {
+    "query": "What does a Customer Success Manager do?",
+    "expected_document": "job_0053_Customer Success Manager.pdf",
+    "ground_truth": "Ensures customer satisfaction and retention.",
+    "category": "normal"
+  },
+
+  {
+    "query": "Role of HR Manager in a company",
+    "expected_document": "job_0062_HR Manager.pdf",
+    "ground_truth": "Manages recruitment and HR operations.",
+    "category": "normal"
+  },
+
+  {
+    "query": "What does a Sales Executive do?",
+    "expected_document": "job_0070_Sales Executive.pdf",
+    "ground_truth": "Sells products and manages client relationships.",
+    "category": "normal"
+  },
+
+  {
+    "query": "Explain English Teacher job role",
+    "expected_document": "job_0080_English Teacher.pdf",
+    "ground_truth": "Teaches English language skills to students.",
+    "category": "normal"
+  },
+
+  {
+    "query": "What is Mechanical Engineer responsible for?",
+    "expected_document": "job_0090_Mechanical Engineer.pdf",
+    "ground_truth": "Designs mechanical systems and machines.",
+    "category": "normal"
+  },
+
+  {
+    "query": "What does a Production Engineer do?",
+    "expected_document": "job_0093_Production Engineer.pdf",
+    "ground_truth": "Manages manufacturing production processes.",
+    "category": "normal"
+  },
+
+  {
+    "query": "Explain role of DevOps Engineer",
+    "expected_document": "job_0005_DevOps Engineer.pdf",
+    "ground_truth": "Automates deployment and manages CI/CD pipelines.",
+    "category": "normal"
+  },
+
+  {
+    "query": "What does a Node.js Backend Developer do?",
+    "expected_document": "job_0006_Node.js Backend Developer.pdf",
+    "ground_truth": "Builds backend services using Node.js.",
+    "category": "normal"
+  },
+
+  {
+    "query": "What does a Cloud Engineer do in AWS systems?",
+    "expected_document": "job_0009_Cloud Engineer - AWS.pdf",
+    "ground_truth": "Manages cloud infrastructure and AWS services.",
+    "category": "ambiguous"
+  },
+
+  {
+    "query": "Tell me about engineer jobs",
+    "expected_document": "job_0090_Mechanical Engineer.pdf",
+    "ground_truth": "Generic engineering roles vary by field.",
+    "category": "ambiguous"
+  }
+]

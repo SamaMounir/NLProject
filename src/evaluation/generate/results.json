@@ -1,0 +1,218 @@
+{
+    "summary": {
+        "evaluation_time": "2026-05-12 04:43:15.909794",
+        "total_queries": 26,
+        "avg_semantic_similarity": 0.5592,
+        "avg_faithfulness": 0.3905
+    },
+    "results": [
+        {
+            "query": "What does a Senior Python Developer do?",
+            "ground_truth": "Responsible for backend development, APIs, and system design using Python.",
+            "generated_answer": "There is no information provided in the given context about a Senior Python Developer. The context provided is for job descriptions of different roles including French Language Teacher, English Teacher, Physics Teacher Secondary, University Lecturer Computer Science, and Preschool Teacher. Therefore, I cannot answer what a Senior Python Developer does based on the given text.",
+            "semantic_similarity": 0.6002,
+            "faithfulness": 0.4667,
+            "non_english": false
+        },
+        {
+            "query": "Explain the role of a Backend Engineer",
+            "ground_truth": "Designs and maintains server-side logic and APIs.",
+            "generated_answer": "The provided context does not contain information about the role of a Backend Engineer. The given text is specific to different job roles including Preschool Teacher, University Lecturer Computer Science, English Teacher, and Deep Learning Researcher. Therefore, I cannot answer the question regarding the role of a Backend Engineer based on the given information.",
+            "semantic_similarity": 0.5588,
+            "faithfulness": 0.3953,
+            "non_english": false
+        },
+        {
+            "query": "What skills are required for a React Frontend Developer?",
+            "ground_truth": "React, JavaScript, HTML, CSS, state management.",
+            "generated_answer": "There is no information provided about requirements for a React Frontend Developer in the given context.",
+            "semantic_similarity": 0.5486,
+            "faithfulness": 0.1875,
+            "non_english": false
+        },
+        {
+            "query": "What does a Full Stack Developer handle?",
+            "ground_truth": "Works on both frontend and backend systems.",
+            "generated_answer": "No relevant information provided about Full Stack Developer in the given context.",
+            "semantic_similarity": 0.5164,
+            "faithfulness": 0.1667,
+            "non_english": false
+        },
+        {
+            "query": "Tell me about Flutter Mobile Developer responsibilities",
+            "ground_truth": "Builds cross-platform mobile apps using Flutter.",
+            "generated_answer": "The responsibilities for a Flutter Mobile Developer include:\n- Strong proficiency in Python, Node.js, Java, or Go.\n- Experience with microservices architecture is considered beneficial.\n- Contributions to open-source projects are appreciated but not required.\n- Knowledge of message queues such as Kafka or RabbitMQ is valued but not mandatory.\n- Required skills encompass Docker, JavaScript, Git, Agile/Scrum methodologies, Python, and AWS services including PostgreSQL.",
+            "semantic_similarity": 0.5926,
+            "faithfulness": 0.6071,
+            "non_english": false
+        },
+        {
+            "query": "What does an AWS Cloud Engineer do?",
+            "ground_truth": "Manages cloud infrastructure on AWS.",
+            "generated_answer": "The provided context does not contain information about an AWS Cloud Engineer role or responsibilities. The given text is for different job positions such as English Teacher, Physics Teacher Secondary, Preschool Teacher, and French Language Teacher at specific companies in Cairo. Therefore, I cannot answer based on the provided context.",
+            "semantic_similarity": 0.4609,
+            "faithfulness": 0.4222,
+            "non_english": false
+        },
+        {
+            "query": "Explain Data Scientist job role",
+            "ground_truth": "Analyzes data and builds predictive models.",
+            "generated_answer": "Data Scientist: • Strong proficiency in Python, Node.js, Java, or Go.\nNice to Have\n• Experience with microservices architecture.\n• Contributions to open-source projects.\n• Knowledge of message queues such as Kafka or RabbitMQ.\nRequired Skills\nDocker, JavaScript, Git, Agile/Scrum, Python, AWS, PostgreSQL\nWhat We Offer\n• Competitive salary benchmarked to market rates.\n• Monthly transportation allowance.\n• Subsidised meals in the office canteen.\n• Comprehensive private health insurance covering employee and family.\n• Stock options for senior roles.\n• Paid maternity (90 days) and paternity (7 days) leave above legal minimum.\nHow to Apply\nSend your CV and a short cover letter to careers@dsquares.com with the subject line \"Data Scientist – Application\". Only shortlisted candidates will be contacted within 2 weeks.",
+            "semantic_similarity": 0.5422,
+            "faithfulness": 0.9604,
+            "non_english": false
+        },
+        {
+            "query": "What is the role of a Machine Learning Engineer?",
+            "ground_truth": "Builds and deploys ML models.",
+            "generated_answer": "The provided context does not contain information about a Machine Learning Engineer role. The given contexts are for different job roles including University Lecturer Computer Science, Arabic and Islamic Studies Teacher, Preschool Teacher, and English Teacher. Therefore, there isn't enough information to describe the responsibilities or requirements of a Machine Learning Engineer based on the provided text.",
+            "semantic_similarity": 0.5192,
+            "faithfulness": 0.4348,
+            "non_english": false
+        },
+        {
+            "query": "What does a Data Engineer do?",
+            "ground_truth": "Builds data pipelines and manages data infrastructure.",
+            "generated_answer": "The provided context does not contain information about a Data Engineer role. The given job descriptions are for different positions including Physics Teacher Secondary, French Language Teacher, English Teacher, University Lecturer Computer Science, and Preschool Teacher. Therefore, there is no suitable answer based on the provided context.",
+            "semantic_similarity": 0.4324,
+            "faithfulness": 0.3953,
+            "non_english": false
+        },
+        {
+            "query": "Explain NLP Engineer responsibilities",
+            "ground_truth": "Works on natural language processing models.",
+            "generated_answer": "NLP Engineer Responsibilities:\n- Develop, train, and evaluate machine learning models for natural language processing tasks.\n- Design and implement algorithms for text analysis, sentiment analysis, entity recognition, and other NLP applications.\n- Work with data to improve model accuracy through feature engineering and hyperparameter tuning.\n- Integrate NLP solutions into existing systems or platforms.\n- Conduct experiments to test the effectiveness of different models and techniques.\n- Continuously update and maintain NLP models as new datasets become available or as requirements change.",
+            "semantic_similarity": 0.8263,
+            "faithfulness": 0.254,
+            "non_english": false
+        },
+        {
+            "query": "What does a Civil Engineer do in construction?",
+            "ground_truth": "Designs and supervises construction projects.",
+            "generated_answer": "A Civil Engineer in construction ensures all works comply with local building codes and safety regulations, produces daily, weekly, and monthly progress reports, supervises on-site construction activities to ensure compliance with specifications, prepares and reviews structural and architectural drawings using AutoCAD and Revit, manages subcontractor relationships and evaluates their performance, and conducts soil and material testing and interprets geotechnical reports.",
+            "semantic_similarity": 0.8118,
+            "faithfulness": 0.72,
+            "non_english": false
+        },
+        {
+            "query": "Role of Structural Engineer",
+            "ground_truth": "Ensures buildings are structurally safe.",
+            "generated_answer": "The provided context does not include a job description for a Structural Engineer. Therefore, I cannot answer the question about the role of a Structural Engineer based on the given information.",
+            "semantic_similarity": 0.3894,
+            "faithfulness": 0.16,
+            "non_english": false
+        },
+        {
+            "query": "What is SEO Specialist job description?",
+            "ground_truth": "Optimizes websites for search engines.",
+            "generated_answer": "There is no information provided about an SEO Specialist job description in the given context. The provided text only includes details for a University Lecturer Computer Science position and instructions on how to apply for different roles including Financial Analyst, Mobile Developer Flutter, Project Engineer Construction, and Recruitment Coordinator.",
+            "semantic_similarity": 0.4949,
+            "faithfulness": 0.4222,
+            "non_english": false
+        },
+        {
+            "query": "What does a Digital Marketing Specialist do?",
+            "ground_truth": "Runs online marketing campaigns.",
+            "generated_answer": "The provided context does not contain information about a Digital Marketing Specialist role. The given text is focused on job descriptions for different teaching positions such as French Language Teacher, English Teacher, Physics Teacher Secondary, and Preschool Teacher. Therefore, there is no suitable answer based on the provided context.",
+            "semantic_similarity": 0.4054,
+            "faithfulness": 0.3721,
+            "non_english": false
+        },
+        {
+            "query": "What is the role of a Financial Analyst?",
+            "ground_truth": "Analyzes financial data for decision making.",
+            "generated_answer": "The provided context does not contain information about a Financial Analyst role. The given contexts are for University Lecturer Computer Science, Arabic and Islamic Studies Teacher, Preschool Teacher, English Teacher, and Physics Teacher Secondary positions.",
+            "semantic_similarity": 0.4504,
+            "faithfulness": 0.4839,
+            "non_english": false
+        },
+        {
+            "query": "Explain Senior Accountant responsibilities",
+            "ground_truth": "Handles accounting records and reports.",
+            "generated_answer": "Senior Accountant Responsibilities:\n- Ensure accuracy and completeness of financial records, including accounts payable, receivable, payroll, and tax filings.\n- Prepare and review financial statements such as balance sheets, income statements, and cash flow reports.\n- Conduct variance analysis to identify discrepancies and recommend corrective actions.\n- Manage the preparation and submission of internal and external financial reports in compliance with relevant accounting standards and regulations.\n- Oversee the implementation and maintenance of accounting policies and procedures.\n- Provide guidance and support to junior accountants on complex issues and ensure adherence to company policies and regulatory requirements.\n- Participate in budgeting, forecasting, and cost control processes.\n- Manage relationships with external auditors for annual audits.\n- Ensure compliance with tax laws and regulations related to income taxes, payroll taxes, and other relevant areas.",
+            "semantic_similarity": 0.7747,
+            "faithfulness": 0.2159,
+            "non_english": false
+        },
+        {
+            "query": "What does a Customer Success Manager do?",
+            "ground_truth": "Ensures customer satisfaction and retention.",
+            "generated_answer": "The job description provided does not include information about a Customer Success Manager. It only contains details for different teaching roles such as French Language Teacher, English Teacher, Physics Teacher Secondary, University Lecturer Computer Science, and Preschool Teacher. Therefore, I cannot answer based on the given context.",
+            "semantic_similarity": 0.4349,
+            "faithfulness": 0.4,
+            "non_english": false
+        },
+        {
+            "query": "Role of HR Manager in a company",
+            "ground_truth": "Manages recruitment and HR operations.",
+            "generated_answer": "The HR Manager role in a company involves managing all human resources functions, including but not limited to employee relations, performance management, onboarding, payroll processing, and HRIS. They are also responsible for conducting training sessions, providing guidance on workplace policies, and ensuring compliance with labor laws. Additionally, they manage the recruitment process, conduct performance evaluations, and handle various administrative tasks related to employees' benefits and compensation. The HR Manager is expected to offer a performance-based annual bonus up to 20% of base salary, flexible working hours, hybrid work option (two days remote per week), comprehensive private health insurance covering employee and family, monthly team social events, and an annual company retreat. They also have access to LinkedIn Learning and external training budget (EGP 5,000/year).",
+            "semantic_similarity": 0.6533,
+            "faithfulness": 0.5149,
+            "non_english": false
+        },
+        {
+            "query": "What does a Sales Executive do?",
+            "ground_truth": "Sells products and manages client relationships.",
+            "generated_answer": "The provided job descriptions do not contain any information about a Sales Executive role. Therefore, based on the given context, it is not possible to answer what a Sales Executive does.",
+            "semantic_similarity": 0.4883,
+            "faithfulness": 0.2692,
+            "non_english": false
+        },
+        {
+            "query": "Explain English Teacher job role",
+            "ground_truth": "Teaches English language skills to students.",
+            "generated_answer": "English Teacher Job Role: Not Available",
+            "semantic_similarity": 0.6594,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "What is Mechanical Engineer responsible for?",
+            "ground_truth": "Designs mechanical systems and machines.",
+            "generated_answer": "The provided job descriptions do not include a position titled \"Mechanical Engineer\". Therefore, I cannot answer what a Mechanical Engineer is responsible for based on the given context.",
+            "semantic_similarity": 0.4629,
+            "faithfulness": 0.1154,
+            "non_english": false
+        },
+        {
+            "query": "What does a Production Engineer do?",
+            "ground_truth": "Manages manufacturing production processes.",
+            "generated_answer": "The provided context does not contain any information about a Production Engineer role. The given job descriptions are specifically for roles such as Physics Teacher Secondary, French Language Teacher, English Teacher, University Lecturer Computer Science, and Preschool Teacher. Therefore, there is no suitable answer based on the provided context.",
+            "semantic_similarity": 0.4936,
+            "faithfulness": 0.4,
+            "non_english": false
+        },
+        {
+            "query": "Explain role of DevOps Engineer",
+            "ground_truth": "Automates deployment and manages CI/CD pipelines.",
+            "generated_answer": "The context provided does not contain a job description for a DevOps Engineer. Therefore, I cannot provide information about the role based on the given text.",
+            "semantic_similarity": 0.4709,
+            "faithfulness": 0.1739,
+            "non_english": false
+        },
+        {
+            "query": "What does a Node.js Backend Developer do?",
+            "ground_truth": "Builds backend services using Node.js.",
+            "generated_answer": "A Node.js Backend Developer integrates third-party APIs and payment gateways as needed, collaborates with product managers and UX designers to translate requirements into features, designs, develops, and maintains scalable web applications and RESTful APIs, identifies and fixes performance bottlenecks, bugs, and security vulnerabilities, conducts code reviews, and provides constructive feedback to teammates.",
+            "semantic_similarity": 0.7114,
+            "faithfulness": 0.7111,
+            "non_english": false
+        },
+        {
+            "query": "What does a Cloud Engineer do in AWS systems?",
+            "ground_truth": "Manages cloud infrastructure and AWS services.",
+            "generated_answer": "No relevant information provided about Cloud Engineers in AWS systems in the given context.",
+            "semantic_similarity": 0.569,
+            "faithfulness": 0.3846,
+            "non_english": false
+        },
+        {
+            "query": "Tell me about engineer jobs",
+            "ground_truth": "Generic engineering roles vary by field.",
+            "generated_answer": "Engineer Jobs are available across various fields including Production Engineering, Manufacturing Engineering, Mechanical Engineering, and HVAC Engineering. Each role requires specific skills and education levels as outlined below:\n\n1. **Production Engineer**: Requires proficiency in CAD/CAM software like SolidWorks, AutoCAD, or CATIA. Nice to have includes PMP certification, experience with HVAC systems, knowledge of lean manufacturing and Six Sigma.\n\n2. **Manufacturing Engineer**: Needs a Bachelor's degree in Mechanical Engineering. Proficiency in SolidWorks, AutoCAD, or CATIA is essential. Nice to have includes PMP certification, experience with HVAC systems, knowledge of lean manufacturing and Six Sigma.\n\n3. **Mechanical Engineer**: Requires strong analytical and troubleshooting skills along with proficiency in CAD/CAM software like SolidWorks, AutoCAD, or CATIA. Nice to have includes a PMP certification, experience with HVAC systems, knowledge of lean manufacturing and Six Sigma.\n\n4. **HVAC Engineer**: Needs knowledge of thermodynamics, fluid mechanics, and materials science, familiarity with ISO 9001 quality management systems, proficiency in CAD/CAM software like SolidWorks, AutoCAD or CATIA, a Bachelor's degree in Mechanical Engineering, strong analytical and troubleshooting skills, and 3-6 years of experience.\n\nEach job offers benefits such as paid annual leave, transportation allowances, performance-based bonuses, life insurance, disability coverage, and flexible working hours.",
+            "semantic_similarity": 0.6726,
+            "faithfulness": 0.5196,
+            "non_english": false
+        }
+    ]
+}

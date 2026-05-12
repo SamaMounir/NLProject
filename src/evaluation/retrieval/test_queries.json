@@ -1,0 +1,132 @@
+[
+  {
+    "query": "What skills are required for a Flutter developer?",
+    "expected_document": "job_0004_Mobile Developer - Flutter.pdf",
+    "type": "normal"
+  },
+  {
+    "query": "Which job requires AWS experience?",
+    "expected_document": "job_0009_Cloud Engineer - AWS.pdf",
+    "type": "normal"
+  },
+  {
+    "query": "What programming language is required for the Java software engineer role?",
+    "expected_document": "job_0007_Software Engineer - Java.pdf",
+    "type": "normal"
+  },
+  {
+    "query": "Which position focuses on React frontend development?",
+    "expected_document": "job_0002_Frontend Developer - React.pdf",
+    "type": "normal"
+  },
+  {
+    "query": "What are the responsibilities of a Data Analyst?",
+    "expected_document": "job_0012_Data Analyst.pdf",
+    "type": "normal"
+  },
+  {
+    "query": "Which role is related to machine learning operations?",
+    "expected_document": "job_0017_ML Ops Engineer.pdf",
+    "type": "normal"
+  },
+  {
+    "query": "Which engineering role involves HVAC systems?",
+    "expected_document": "job_0092_HVAC Engineer.pdf",
+    "type": "normal"
+  },
+  {
+    "query": "What qualifications are needed for an English Teacher?",
+    "expected_document": "job_0080_English Teacher.pdf",
+    "type": "normal"
+  },
+  {
+    "query": "Which job focuses on SEO optimization?",
+    "expected_document": "job_0032_SEO Specialist.pdf",
+    "type": "normal"
+  },
+  {
+    "query": "Which role handles payroll operations?",
+    "expected_document": "job_0063_Payroll Specialist.pdf",
+    "type": "normal"
+  },
+  {
+    "query": "Find a role that requires both Python and APIs.",
+    "expected_document": "job_0008_API Developer.pdf",
+    "type": "difficult"
+  },
+  {
+    "query": "Which jobs mention cloud infrastructure and DevOps practices?",
+    "expected_document": "job_0005_DevOps Engineer.pdf",
+    "type": "difficult"
+  },
+  {
+    "query": "Which position requires experience with deep learning models?",
+    "expected_document": "job_0018_Deep Learning Researcher.pdf",
+    "type": "difficult"
+  },
+  {
+    "query": "Find a teaching role related to science subjects.",
+    "expected_document": "job_0083_Science Teacher - Primary.pdf",
+    "type": "difficult"
+  },
+  {
+    "query": "Which role combines analytics with business reporting?",
+    "expected_document": "job_0013_Business Intelligence Analyst.pdf",
+    "type": "difficult"
+  },
+  {
+    "query": "developer with backend experience",
+    "expected_document": "job_0001_Backend Engineer.pdf",
+    "type": "ambiguous"
+  },
+  {
+    "query": "job related to AI",
+    "expected_document": "job_0014_AI Engineer.pdf",
+    "type": "ambiguous"
+  },
+  {
+    "query": "engineering role involving systems",
+    "expected_document": "job_0026_Infrastructure Engineer.pdf",
+    "type": "ambiguous"
+  },
+  {
+    "query": "marketing job using online campaigns",
+    "expected_document": "job_0030_Digital Marketing Specialist.pdf",
+    "type": "ambiguous"
+  },
+  {
+    "query": "customer support role",
+    "expected_document": "job_0051_Customer Support Specialist.pdf",
+    "type": "ambiguous"
+  },
+  {
+    "query": "What salary does the Flutter developer role offer?",
+    "expected_document": "NOT_FOUND",
+    "type": "missing_information"
+  },
+  {
+    "query": "What company is hiring the AWS cloud engineer?",
+    "expected_document": "NOT_FOUND",
+    "type": "missing_information"
+  },
+  {
+    "query": "What benefits package is included for the accountant role?",
+    "expected_document": "NOT_FOUND",
+    "type": "missing_information"
+  },
+  {
+    "query": "Does the Flutter developer role require Swift programming?",
+    "expected_document": "NOT_FOUND",
+    "type": "edge_case_hallucination"
+  },
+  {
+    "query": "Which role requires both accounting and machine learning skills?",
+    "expected_document": "NOT_FOUND",
+    "type": "edge_case_confusion"
+  },
+  {
+    "query": "Find a job that combines civil engineering and digital marketing.",
+    "expected_document": "NOT_FOUND",
+    "type": "edge_case_confusion"
+  }
+]

@@ -15,7 +15,7 @@ class QdrantProvider:
         self,
         db_path: str = "assets/db/qdrant_data",
         collection_name: str = "job_documents",
-        vector_size: int = 768,          # changed from 3072 to 768 (nomic-embed-text)
+        vector_size: int = 768,
         distance: Distance = Distance.COSINE,
     ):
         self.collection_name = collection_name

@@ -1,0 +1,193 @@
+{
+    "summary": {
+        "evaluation_time": "2026-05-12 03:24:13.526946",
+        "total_queries": 26,
+        "correct": 2,
+        "failed": 24,
+        "accuracy": 7.69
+    },
+    "results": [
+        {
+            "query": "What skills are required for a Flutter developer?",
+            "category": "normal",
+            "expected_document": "job_0004_Mobile Developer - Flutter.pdf",
+            "retrieved_document": "job_0008_API Developer.pdf",
+            "correct": false
+        },
+        {
+            "query": "Which job requires AWS experience?",
+            "category": "normal",
+            "expected_document": "job_0009_Cloud Engineer - AWS.pdf",
+            "retrieved_document": "job_0064_Recruitment Coordinator.pdf",
+            "correct": false
+        },
+        {
+            "query": "What programming language is required for the Java software engineer role?",
+            "category": "normal",
+            "expected_document": "job_0007_Software Engineer - Java.pdf",
+            "retrieved_document": "job_0008_API Developer.pdf",
+            "correct": false
+        },
+        {
+            "query": "Which position focuses on React frontend development?",
+            "category": "normal",
+            "expected_document": "job_0002_Frontend Developer - React.pdf",
+            "retrieved_document": "job_0004_Mobile Developer - Flutter.pdf",
+            "correct": false
+        },
+        {
+            "query": "What are the responsibilities of a Data Analyst?",
+            "category": "normal",
+            "expected_document": "job_0012_Data Analyst.pdf",
+            "retrieved_document": "job_0088_University Lecturer - Computer Science.pdf",
+            "correct": false
+        },
+        {
+            "query": "Which role is related to machine learning operations?",
+            "category": "normal",
+            "expected_document": "job_0017_ML Ops Engineer.pdf",
+            "retrieved_document": "job_0011_Machine Learning Engineer.pdf",
+            "correct": false
+        },
+        {
+            "query": "Which engineering role involves HVAC systems?",
+            "category": "normal",
+            "expected_document": "job_0092_HVAC Engineer.pdf",
+            "retrieved_document": "job_0092_HVAC Engineer.pdf",
+            "correct": true
+        },
+        {
+            "query": "What qualifications are needed for an English Teacher?",
+            "category": "normal",
+            "expected_document": "job_0080_English Teacher.pdf",
+            "retrieved_document": "job_0082_Arabic and Islamic Studies Teacher.pdf",
+            "correct": false
+        },
+        {
+            "query": "Which job focuses on SEO optimization?",
+            "category": "normal",
+            "expected_document": "job_0032_SEO Specialist.pdf",
+            "retrieved_document": "job_0012_Data Analyst.pdf",
+            "correct": false
+        },
+        {
+            "query": "Which role handles payroll operations?",
+            "category": "normal",
+            "expected_document": "job_0063_Payroll Specialist.pdf",
+            "retrieved_document": "job_0067_Compensation and Benefits Analyst.pdf",
+            "correct": false
+        },
+        {
+            "query": "Find a role that requires both Python and APIs.",
+            "category": "difficult",
+            "expected_document": "job_0008_API Developer.pdf",
+            "retrieved_document": "job_0088_University Lecturer - Computer Science.pdf",
+            "correct": false
+        },
+        {
+            "query": "Which jobs mention cloud infrastructure and DevOps practices?",
+            "category": "difficult",
+            "expected_document": "job_0005_DevOps Engineer.pdf",
+            "retrieved_document": "job_0003_Full Stack Developer.pdf",
+            "correct": false
+        },
+        {
+            "query": "Which position requires experience with deep learning models?",
+            "category": "difficult",
+            "expected_document": "job_0018_Deep Learning Researcher.pdf",
+            "retrieved_document": "job_0011_Machine Learning Engineer.pdf",
+            "correct": false
+        },
+        {
+            "query": "Find a teaching role related to science subjects.",
+            "category": "difficult",
+            "expected_document": "job_0083_Science Teacher - Primary.pdf",
+            "retrieved_document": "job_0080_English Teacher.pdf",
+            "correct": false
+        },
+        {
+            "query": "Which role combines analytics with business reporting?",
+            "category": "difficult",
+            "expected_document": "job_0013_Business Intelligence Analyst.pdf",
+            "retrieved_document": "job_0016_Data Engineer.pdf",
+            "correct": false
+        },
+        {
+            "query": "developer with backend experience",
+            "category": "ambiguous",
+            "expected_document": "job_0001_Backend Engineer.pdf",
+            "retrieved_document": "job_0001_Backend Engineer.pdf",
+            "correct": true
+        },
+        {
+            "query": "job related to AI",
+            "category": "ambiguous",
+            "expected_document": "job_0014_AI Engineer.pdf",
+            "retrieved_document": "job_0065_Learning and Development Specialist.pdf",
+            "correct": false
+        },
+        {
+            "query": "engineering role involving systems",
+            "category": "ambiguous",
+            "expected_document": "job_0026_Infrastructure Engineer.pdf",
+            "retrieved_document": "job_0092_HVAC Engineer.pdf",
+            "correct": false
+        },
+        {
+            "query": "marketing job using online campaigns",
+            "category": "ambiguous",
+            "expected_document": "job_0030_Digital Marketing Specialist.pdf",
+            "retrieved_document": "job_0034_Performance Marketing Manager.pdf",
+            "correct": false
+        },
+        {
+            "query": "customer support role",
+            "category": "ambiguous",
+            "expected_document": "job_0051_Customer Support Specialist.pdf",
+            "retrieved_document": "job_0052_Call Center Agent.pdf",
+            "correct": false
+        },
+        {
+            "query": "What salary does the Flutter developer role offer?",
+            "category": "missing_information",
+            "expected_document": "NOT_FOUND",
+            "retrieved_document": "job_0008_API Developer.pdf",
+            "correct": false
+        },
+        {
+            "query": "What company is hiring the AWS cloud engineer?",
+            "category": "missing_information",
+            "expected_document": "NOT_FOUND",
+            "retrieved_document": "job_0009_Cloud Engineer - AWS.pdf",
+            "correct": false
+        },
+        {
+            "query": "What benefits package is included for the accountant role?",
+            "category": "missing_information",
+            "expected_document": "NOT_FOUND",
+            "retrieved_document": "job_0041_Financial Analyst.pdf",
+            "correct": false
+        },
+        {
+            "query": "Does the Flutter developer role require Swift programming?",
+            "category": "edge_case_hallucination",
+            "expected_document": "NOT_FOUND",
+            "retrieved_document": "job_0008_API Developer.pdf",
+            "correct": false
+        },
+        {
+            "query": "Which role requires both accounting and machine learning skills?",
+            "category": "edge_case_confusion",
+            "expected_document": "NOT_FOUND",
+            "retrieved_document": "job_0017_ML Ops Engineer.pdf",
+            "correct": false
+        },
+        {
+            "query": "Find a job that combines civil engineering and digital marketing.",
+            "category": "edge_case_confusion",
+            "expected_document": "NOT_FOUND",
+            "retrieved_document": "job_0037_Media Buyer.pdf",
+            "correct": false
+        }
+    ]
+}

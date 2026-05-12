@@ -1,4 +1,3 @@
-
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
@@ -30,7 +29,14 @@ class OpenAIProvider(LLMInterface):
     def generate_response(self, prompt: str) -> str:
         response = self.client.chat.completions.create(
             model=self.generation_model,
-            messages=[{"role": "user", "content": prompt}],
+            messages=[
+                {
+                    "role": "system",
+                    "content": "You are a strict job description assistant. Answer only from the provided context. Never use your own knowledge. Always respond in English only."
+                },
+                {"role": "user", "content": prompt}
+            ],
+            temperature=float(os.getenv("TEMPERATURE", "0.1")),
         )
         return response.choices[0].message.content
 
@@ -43,9 +49,23 @@ class OpenAIProvider(LLMInterface):
 
     def construct_prompt(self, context: str, query: str) -> str:
         return (
-            f"Use the following context to answer the question.\n"
-            f"If the answer is not in the context, say 'I don't have enough information.'\n\n"
+            f"You are a job description assistant. Answer ONLY using the context below.\n"
+            f"If the context does not contain the answer, say exactly: "
+            f"'The provided context does not contain information about this role.'\n"
+            f"Keep your answer under 3 sentences. Do not use your own knowledge.\n\n"
             f"Context:\n{context}\n\n"
             f"Question: {query}\n"
             f"Answer:"
         )
+
+
+if __name__ == "__main__":
+    provider = OpenAIProvider()
+
+    print("Testing embedding...")
+    vector = provider.embed_text("What Python skills are required?")
+    print(f"Vector dimension: {len(vector)}")
+
+    print("\nTesting generation...")
+    answer = provider.generate_response("What is RAG in AI? Answer in one sentence.")
+    print(f"Answer: {answer}")
